@@ -7,7 +7,7 @@ import CourseForm from './CourseForm';
 import {browserHistory} from 'react-router';
 import toastr from 'toastr';
 
-class ManageCoursePage extends Component {
+export class ManageCoursePage extends Component {
     constructor(props, context) {
         super(props, context);
 
